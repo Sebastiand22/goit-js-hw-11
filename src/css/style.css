@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(58, 3, 76);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .search-toolbar {
+    margin-top: 20px;
+    text-align: center;
+    
+  }
+
+  .search-form {
+    display: inline-block;
+    position: relative;
+  }
+
+  .search-form-input {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    font-size: 16px;
+  }
+
+  .search-form-button {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #666;
+    cursor: pointer;
+  }
+
+  .gallery {
+    margin-top: 20px;
+    /* Stiluri pentru galerie, dacă există */
+  }
+
+  .fixedbutton {
+    margin-top: 20px;
+    background-color: #9d0657;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }

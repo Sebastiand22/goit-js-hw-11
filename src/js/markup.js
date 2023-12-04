@@ -1,9 +1,9 @@
 export function createCardsList(images) {
-    return images.map(image => createMarkup(image)).join('');
-  }
-  
-  function createMarkup(image) {
-    return `
+  return images.map(image => createMarkup(image)).join('');
+}
+
+function createMarkup(image) {
+  return `
       <div class="photo-card">
         <a href="${image.largeImageURL}">
           <img
@@ -30,4 +30,4 @@ export function createCardsList(images) {
         </div>
       </div>
       `;
-  }
+}

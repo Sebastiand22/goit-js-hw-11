@@ -106,7 +106,7 @@ function updateImagesList(markup) {
       captionsData: 'alt',
       captionPosition: 'bottom',
       captionDelay: 250,
-      animationSpeed: 250,
+      animationSpeed: 200,
       fadeSpeed: 300,
       showCounter: true,
       // Alte opțiuni pot fi adăugate aici
@@ -126,3 +126,4 @@ const handleInfiniteScroll = () => {
     loadMoreImages(searchTerm);
   }
 };
+
